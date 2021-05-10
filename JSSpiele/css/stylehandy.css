@@ -1,0 +1,106 @@
+*{
+    
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header1{
+   padding: 10px;
+   display: block;
+   justify-content: flex-end; 
+   align-items: center; 
+ 
+}
+body{ 
+    background-image: url(../images/alien-29939.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+  
+    
+
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 50px;
+   
+}
+ul{
+    float: right;
+    list-style-type: none;
+    
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding:  5px 20px;
+    border: 1px solid #fff;
+    transition: 0.6s ease;
+
+}
+ul li a:hover{
+    background-color: #fff;
+    color: rgb(5, 80, 61);
+}
+p{
+    font-size: 100px;
+    color: rgb(61, 61, 61);
+    text-align: right;
+    padding-right: 50px;
+    font-family: cursive;
+    margin: 0;
+    
+}
+h5{
+    color: #fff;
+    text-align: right;
+   
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.menu{
+    max-width: 1200px;
+    margin: auto;
+   
+}
+.screen{
+    box-shadow: 1px 1px 10px #777;
+    
+    padding: 80px;
+    background-color: rgba(136, 136, 136, 0.315);
+    display: none;
+    }
+
+.screen.active{
+    display: block;
+    justify-content: center;
+   
+   
+
+}
+
+.button{
+    background-color: #fff;
+    display: inline-block;
+    color: rgb(5, 75, 63);
+    margin-top: 20px;
+    padding: 10px;
+}
+.button:hover{
+    background-color: var(--primary);
+    cursor:pointer;
+}
+
+label{
+    color: #fff;
+}
+img{
+    height: 100px;
+    padding-left: 120px;
+    
+}
+

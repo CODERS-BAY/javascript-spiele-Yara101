@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Monster Spiel</title>
+        <link rel="stylesheet" href="css/stylehandy.css">
+
+    </head>
+
+    <body>
+        <header class="header1">
+            <div class="logo"> 
+                <img  src="images/log.png"><a href="#" ></a></img>
+                <p>Monster</p>
+                <h5>Spiel</h5>
+            </div>  
+          
+        
+        </header>
+
+
+
+
+        <div id="screen1" class="screen active">
+           
+           
+            <label>Auf welchem Planeten möchten sie spielen? </label>
+            <select id="select">
+                <option value="9.81">Erde</option>
+                <option value="1.62">Mond</option>
+                <option value="3.69">Mars</option>
+                <option value="24.79">Jupiter</option>
+            </select>
+            <br>
+            <br>
+            <label>Wie oft möchtest du spielen?</label>
+            <br>
+            <br>
+            <input type="number" id="tryCounter" name="tryCounter">
+
+            <br>
+
+            <div class="button" onclick="changeScreen(true)">Next</div>
+        </div>
+
+
+
+
+        <div id="screen2" class="screen">
+            <div id="container"></div>
+            <label>Winkel</label>
+            <br>
+            <br>
+            
+            <input type="winkel" id="winkel" name="MWinkel">
+            <br>
+            <br>
+            <label>Wurfweite</label>
+            <br>
+            <br>
+            <input type="wurfweite" id="wurfweite" name="Mwurfweite">
+            <br>
+            <br>
+            
+
+            <div class="button" onclick="changeScreen(false)">Wieder speilen</div>
+
+            <div class="button" onclick="result(true)">WERFEN</div>
+
+
+        </div>
+
+
+
+
+
+        
+
+
+
+
+        <script type="text/javascript" src="js/HandyWeitWurf.js"></script>
+    </body>
+
+
+
+
+
+</html>

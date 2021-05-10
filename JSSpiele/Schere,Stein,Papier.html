@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>Javascript 12</title>
+        <link rel="stylesheet" href="css/styleSchere.css">
+    </head>
+    <body>
+        <div id="screen1" class="screen">
+            <label>wie oft möchtest du spielen?</label>
+            <input id="counterInput" type="number" min="1">
+            <button onclick="addCounter()">Los!</button>
+        </div>
+        <div id="screen2" class="screen hidden">
+            <h2>Schere Stein Papiere Spiel</h2>
+            <div class="container">
+                <h5>User<br>
+                <span id="userCounterContainer">0</span>
+                </h5>
+                <img id="userChoiceImg" src="images/muster1.png" alt="Users Choice" />
+                <h5>PC<br>
+                <span id="pcCounterContainer">0</span> 
+                </h5>
+                <img id="pcChoiceImg" src="images/muster1.png" alt="Pc Choice" />
+
+            </div>
+            <div class="container">
+                <img src="images/bild1.jpg" alt="Schere" onclick="play(1)" />
+                <img src="images/bild2.jpg" alt="Stein" onclick="play(2)" />
+                <img src="images/bild3.jpg" alt="Papiere" onclick="play(3)" />
+                
+
+
+            </div>
+
+
+        </div>
+        
+        <script src="js/Schere,Stein,Papiere.js" type="text/javascript"></script>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(233, 150, 18, 0.719);
+    background-image: url(../images/fight-4121142_1920.jpg);
+    font-family: cursive;
+    
+    
+}
+
+body{
+    align-items:center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+.screen{
+    border: 1px solidrgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    min-height: 200px;
+    box-shadow: 1px 1px 10px #777;
+
+
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+img{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 1px solidrgb(255, 255, 255);
+    border-radius: 10px;
+    
+}
+#popUp{
+    background-color: #fff;
+    border:1px solid#777;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #777;
+    left: 0;
+    margin: 0 auto;
+    padding: 40px;
+    right: 0;
+    text-align: center;
+    width: 500px;
+    position: absolute;
+}
+h2{
+    color: rgb(51, 51, 51);
+    text-align: center;
+    font-size: 50px;
+}
+
+.screen.hidden{
+    display: none;
+}
+label{
+    color: rgb(44, 44, 44);
+}
